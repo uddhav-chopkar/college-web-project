@@ -1,0 +1,38 @@
+.about-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+.college-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f8f9fb;
+}
+
+.college-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin-right: 30px;
+  flex: 1;
+}
+
+.college-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.college-text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.college-text p {
+  font-size: 1.05rem;
+  color: #444;
+}

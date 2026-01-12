@@ -1,0 +1,44 @@
+.about-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+.chairman-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #eef1f5;
+}
+
+.chairman-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+  margin-right: 30px;
+  flex: 1;
+}
+
+.chairman-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.chairman-text h2 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  color: #003366;
+}
+
+.chairman-text h3 {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.chairman-text p {
+  font-size: 1.05rem;
+  color: #444;
+}

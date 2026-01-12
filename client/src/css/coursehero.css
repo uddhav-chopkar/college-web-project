@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.head{
+    height: 41vh;
+    width: 100%;
+    background-image: url(../assets/backdrop.jpg);
+    color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 530;
+}

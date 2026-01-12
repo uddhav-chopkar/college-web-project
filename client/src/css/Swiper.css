@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.enquiry-swiper-container {
+  height: auto;
+  background-color: #FAF9F6;
+  padding: 60px 20px 40px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.swiper-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #131D4F;
+  margin-bottom: 30px;
+}
+
+.swiper {
+  width: 100%;
+  height: 200px;
+  overflow: visible; /* ✅ Prevents card cutting */
+}
+
+.enquiry-card {
+  background: linear-gradient(145deg, #0B1D51, #131D4F); 
+  color: #e0f0ff;  
+  padding: 20px;
+  border-radius: 20px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  transform: scale(1);
+  z-index: 1;
+}
+
+.enquiry-card:hover {
+  transform: scale(1.05);
+  background: linear-gradient(145deg, #3D365C, #077A7D); 
+  color: #FFFDF6;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+  z-index: 2;
+}

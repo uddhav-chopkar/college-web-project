@@ -1,0 +1,26 @@
+.about-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+.about-hero-section {
+  background-image: url('../assets/college.webp');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.about-hero-section p {
+  font-size: 1.3rem;
+}

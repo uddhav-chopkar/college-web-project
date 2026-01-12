@@ -1,0 +1,133 @@
+.eventgrid {
+  height: 120vh;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.image-box {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+
+.overlay-title {
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-box:hover .overlay-title {
+  opacity: 1;
+}
+
+.image1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("../assets/Antarangi.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image2 {
+  background-image: url("../assets/certificate.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  border-radius: 10px;
+
+  object-fit: cover;
+}
+.image3 {
+  background-image: url("../assets/Culturalevents.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image4 {
+  background-image: url("../assets/gathering.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  border-radius: 10px;
+
+  object-fit: cover;
+}
+.image5 {
+  background-image: url("../assets/freshersparty.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image6 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-image: url("../assets/shivmahotsav.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  border-radius: 10px;
+
+  object-fit: cover;
+}
+.image7 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("../assets/top.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image8 {
+  background-image: url("../assets/udaydance.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.image9 {
+  background-image: url("../assets/group dance.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 10px;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
